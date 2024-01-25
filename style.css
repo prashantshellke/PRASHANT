@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Comfortaa', sans-serif;
+font-family: 'Overlock SC', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: none;
+    justify-content: space-between;
+    align-items: center;
+background:transparent;
+}
+
+nav img {
+    width: 280px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+list-style: none;
+   display: inline-block;
+    padding: 8px 12px; 
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+.nav-links ul li::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.text-box{
+width: 90%;
+color: #fff;
+position:absolute;
+top:50%;
+left:50%
+transform: translate(-50%,-50%);
+text-align:center;
+}
+.text-box h1 {
+font-size:62px;
+
+text-align:center;
+}
+.text-box p {
+margin:10px 0 40px;
+font-size: 14px;
+color:#fff;
+}
+.hero-btn {
+display: inline-block;
+text-decoration: none;
+color:#fff;
+border:1px solid #fff;
+padding: 12px 34px;
+font-size:15px;
+background: transparent;
+position: relative;
+cursor:pointer;
+}
+.hero-btn:hover{
+border:1px solid #f44336;
+background:#f44336;
+transaction:1s;
+}
+
+
+.course{
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top:100px;
+}
+serif;">body {
+background-color:#344a72;
+font-family:"Roboto",sans-serif;
+}
+.signup-box{
+width:360px;
+height:620px;
+margin: auto;
+background-color:#000000; 
+border-radius:3px;
+
+}
+
+h1{
+text-align: left;
+padding-top:15px;
+color: #fff;
+}
+h4{
+text-align: left;
+color: #fff;
+ 
+}
+form{
+width:300px;
+margin-left: 20px;
+}
+form label{
+
+display: flex;
+margin-top:20px;
+font-size:18px;
+}
+form input{
+
+width: 100%;
+padding:7px;
+border:none;
+border:1px solid gray;
+border-radious: 6px;
+outline:none;
+}
+input[type="button"]{
+width:320px;
+height:35px;
+margin-top:20px;
+border:none;
+background-color:#49c1a2;
+color:white;
+font-size:18px;
+}
+.signup-box{
+    min-height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/shubh.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
